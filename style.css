@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(0,244,234);
+    background: linear-gradient(90deg, rgba(0,244,234,1) 0%, rgba(6,15,164,1) 100%);
+}
+
+p{
+    display: flex;
+    margin-bottom: 100px;
+    
+    
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajusta el ancho del cuadro según tus necesidades */
+    opacity: 0.80;
+    box-shadow: -18px 5px 10px 1px #000;
+}
+
+.add-task {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="text"],
+
+
+button {
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #20538a;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+li {
+    color: black;
+}
+
+li button{
+    background-color: rgb(33, 45, 155);
+    margin-left: 10px;
+}
+
+
+
